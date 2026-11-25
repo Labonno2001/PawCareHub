@@ -1,0 +1,37 @@
+﻿# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Uploaded starter archive
+*.zip
+
+# Keep Next.js TypeScript declarations
+!frontend/next-env.d.ts
